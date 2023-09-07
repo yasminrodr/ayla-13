@@ -1,0 +1,85 @@
+const professor = {
+    nome: "Vitor",
+    idade:27,
+    email: 'vitor@gmail.com'
+}
+console.log(professor["email"])
+professor.nome = 'Mika'
+professor['email'] = 'profmika@gmail.com'
+
+const enrolados = {
+    nome: "Rapunzel",
+    direção: 'Disney',
+    lançamento: 2013,
+    elenco: ("rapunzel", "bandido"),
+    javiu: Boolean(false)
+}
+
+console.log(enrolados.direção)
+console.log(enrolados.nome)
+console.log(enrolados["lançamento"])
+console.log(enrolados["elenco"])
+
+
+
+const pessoa = {
+    nome: Sasa,
+    idade: 16,
+    gêneroMusical: ("trap", "funk")
+}
+
+console.log("O nome da pessoa é $(pessoa.nome), ela tem $(pessoa.idade) anos e gosta muito de $(pessoa.gêneroMusical).");
+
+
+const donoDoPet = {
+    nome: "Vitor Hugo",
+    pet: {
+    nomeDoPet: "wanda",
+    raça: 'vira-lata'
+    idade: 1
+    }
+}
+console.log(donoDoPet.pet.nomeDoPet)
+
+const curso = {
+    nome: "Noturno Frontend",
+    linguagens: ["JS", "CSS", "HTML"]
+}
+console.log(curso.linguagens[0])
+notaç
+
+
+
+const professores = [
+    {nome: "Andrei", modulo: 1},
+    {nome: "Vitor", modulo: 2},
+    {nome: "Mika", modulo: 3},
+]
+
+console.log(professores[1].nome)
+ 
+const usuario = {
+    nome: 'Prof',
+    idade: 25,
+    email: 'prof@senacrs.com.br',
+    cidade: 'São Paulo'
+}
+    
+const novoUsuario = {
+    ...usuario,
+    nome: 'João',
+    idade: 28
+}
+
+
+const comidas = {
+    nome: Sasa,
+    preferida: "pizza"
+} 
+
+const objeto = {
+    nome: Kevin,
+    idade: 15,
+}
+
+console.log("o nome da pessoa é" + comidas.nome, "sua comida preferida é", +comidas.preferida, "Seu melhor amigo se chama" +objeto.nome, "e tem" +objeto.idade, "anos.")
